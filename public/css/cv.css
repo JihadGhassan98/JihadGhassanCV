@@ -99,38 +99,52 @@
   font-weight: bold;
   color: #ec0d96;
 }
-.cv-body__education {
+.cv-body__cv-section-fluid {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.cv-body__education--heading {
-  width: max-content;
+.cv-body__cv-section-fluid--heading {
+  width: 90%;
+  text-align: center;
   padding: 1%;
   background-color: #8F00FF;
   color: #fff;
   border-radius: 10px;
   margin: 3% auto;
   font-size: 50px;
+  text-transform: capitalize;
 }
-.cv-body__education--context {
-  width: 60%;
+.cv-body__cv-section-fluid--context {
+  width: 45%;
   display: flex;
   flex-direction: column;
   padding: 1%;
-  margin: auto;
+  margin: 1%;
   border: 1px solid rgba(0, 0, 0, 0.231372549);
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.231372549);
 }
-.cv-body__education .major {
+.cv-body__cv-section-fluid .title {
   padding: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-transform: capitalize;
 }
-.cv-body__education .major b {
+.cv-body__cv-section-fluid .title b {
   color: #ec0d96;
 }
-.cv-body__education .university {
+.cv-body__cv-section-fluid .text-node {
   padding: 1%;
+  text-transform: capitalize;
+  color: #000;
+  text-decoration: none;
+}
+.cv-body__cv-section-fluid .text-node {
+  padding: 1%;
+  text-transform: capitalize;
+  color: #000;
+  text-decoration: none;
 }/*# sourceMappingURL=cv.css.map */
